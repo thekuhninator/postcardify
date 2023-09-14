@@ -28,3 +28,7 @@ dist-ssr
 
 # Test photos
 test_photos/
+
+# Submodules
+stable-diffusion-webui/
+style-transfer-pytorch/
