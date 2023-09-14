@@ -25,3 +25,6 @@ dist-ssr
 
 # AI models
 *.safetensors
+
+# Test photos
+test_photos/
