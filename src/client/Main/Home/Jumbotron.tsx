@@ -71,6 +71,7 @@ export default function Jumbotron() {
               type="submit"
               fullWidth
               variant="contained"
+              href="/Editor"
               sx={{ mt: 3, mb: 2 }}
             >
               Start Creating
