@@ -1,0 +1,6 @@
+[submodule "stable-diffusion-webui"]
+	path = stable-diffusion-webui
+	url = https://github.com/AUTOMATIC1111/stable-diffusion-webui
+[submodule "style-transfer-pytorch"]
+	path = style-transfer-pytorch
+	url = https://github.com/crowsonkb/style-transfer-pytorch
