@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 
+
 const UploadAndDisplayImage = () => {
 
+  function callApi() {
+    fetch("http://localhost:3000/hello")
+        .then(res => res.text())
+        .then(res => setText(res));
+  }
+
   const [selectedImage, setSelectedImage] = useState(null);
+  const [textStuff, setText] = useState("hello");
+
 
   return (
     <div>
@@ -17,7 +26,10 @@ const UploadAndDisplayImage = () => {
           <button onClick={() => setSelectedImage(null)}>Remove</button>
         </div>
       )}
-
+      <h1>
+        hiiii
+      </h1>
+      {textStuff}
       <br />
       <br />
       
